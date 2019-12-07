@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="mysql@localhost">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.16">
+    <root id="1">
+      <ServerVersion>5.0.87</ServerVersion>
+      <DefaultCasing>lower/lower</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="2018127155"/>
+    <schema id="3" parent="1" name="alipay"/>
+    <schema id="4" parent="1" name="cloud_backend"/>
+    <schema id="5" parent="1" name="cloud_file"/>
+    <schema id="6" parent="1" name="cloud_log"/>
+    <schema id="7" parent="1" name="cloud_notification"/>
+    <schema id="8" parent="1" name="cloud_oauth"/>
+    <schema id="9" parent="1" name="cloud_user"/>
+    <schema id="10" parent="1" name="depr"/>
+    <schema id="11" parent="1" name="how2java"/>
+    <schema id="12" parent="1" name="iderby"/>
+    <schema id="13" parent="1" name="information_schema"/>
+    <schema id="14" parent="1" name="jdbcstudy"/>
+    <schema id="15" parent="1" name="jxdb2018127155"/>
+    <schema id="16" parent="1" name="learning"/>
+    <schema id="17" parent="1" name="mydata"/>
+    <schema id="18" parent="1" name="mysql">
+      <Current>1</Current>
+    </schema>
+    <schema id="19" parent="1" name="mysql1"/>
+    <schema id="20" parent="1" name="mysql2"/>
+    <schema id="21" parent="1" name="ssm"/>
+    <schema id="22" parent="1" name="takeoutdb"/>
+    <schema id="23" parent="1" name="test"/>
+    <schema id="24" parent="1" name="tmall_ssm"/>
+    <schema id="25" parent="1" name="topicdb"/>
+    <schema id="26" parent="1" name="vr"/>
+    <schema id="27" parent="1" name="zheng"/>
+    <table id="28" parent="18" name="category_"/>
+    <table id="29" parent="18" name="ceshi1"/>
+    <table id="30" parent="18" name="ceshi2"/>
+    <table id="31" parent="18" name="ceshi3"/>
+    <table id="32" parent="18" name="ceshi4"/>
+    <table id="33" parent="18" name="ceshi7"/>
+    <table id="34" parent="18" name="ceshi8"/>
+    <table id="35" parent="18" name="columns_priv"/>
+    <table id="36" parent="18" name="country"/>
+    <table id="37" parent="18" name="custcopy"/>
+    <table id="38" parent="18" name="db"/>
+    <table id="39" parent="18" name="dept"/>
+    <table id="40" parent="18" name="flower"/>
+    <table id="41" parent="18" name="func"/>
+    <table id="42" parent="18" name="help_category"/>
+    <table id="43" parent="18" name="help_keyword"/>
+    <table id="44" parent="18" name="help_relation"/>
+    <table id="45" parent="18" name="help_topic"/>
+    <table id="46" parent="18" name="host"/>
+    <table id="47" parent="18" name="music"/>
+    <table id="48" parent="18" name="orders"/>
+    <table id="49" parent="18" name="people"/>
+    <table id="50" parent="18" name="poduct_"/>
+    <table id="51" parent="18" name="proc"/>
+    <table id="52" parent="18" name="procs_priv"/>
+    <table id="53" parent="18" name="product_"/>
+    <table id="54" parent="18" name="t_adminlogon"/>
+    <table id="55" parent="18" name="t_course"/>
+    <table id="56" parent="18" name="t_login_log"/>
+    <table id="57" parent="18" name="t_selection"/>
+    <table id="58" parent="18" name="t_sinfo"/>
+    <table id="59" parent="18" name="t_slogon"/>
+    <table id="60" parent="18" name="t_user"/>
+    <table id="61" parent="18" name="tables_priv"/>
+    <table id="62" parent="18" name="test22"/>
+    <table id="63" parent="18" name="test33"/>
+    <table id="64" parent="18" name="time_zone"/>
+    <table id="65" parent="18" name="time_zone_leap_second"/>
+    <table id="66" parent="18" name="time_zone_name"/>
+    <table id="67" parent="18" name="time_zone_transition"/>
+    <table id="68" parent="18" name="time_zone_transition_type"/>
+    <table id="69" parent="18" name="user"/>
+    <table id="70" parent="18" name="user_t"/>
+    <table id="71" parent="18" name="userinfo"/>
+    <table id="72" parent="18" name="users"/>
+    <table id="73" parent="18" name="uses"/>
+    <view id="74" parent="18" name="ceshi10">
+      <SourceTextLength>158</SourceTextLength>
+    </view>
+    <view id="75" parent="18" name="ceshi12">
+      <SourceTextLength>84</SourceTextLength>
+    </view>
+    <view id="76" parent="18" name="ceshi14">
+      <SourceTextLength>158</SourceTextLength>
+    </view>
+    <view id="77" parent="18" name="ceshi15">
+      <SourceTextLength>193</SourceTextLength>
+    </view>
+    <view id="78" parent="18" name="ceshi9">
+      <SourceTextLength>84</SourceTextLength>
+    </view>
+    <routine id="79" parent="18" name="ceshi20">
+      <SourceTextLength>47</SourceTextLength>
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="80" parent="18" name="p2">
+      <SourceTextLength>227</SourceTextLength>
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="81" parent="18" name="proc_auto_insertdata">
+      <SourceTextLength>248</SourceTextLength>
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="82" parent="18" name="productpricint">
+      <SourceTextLength>57</SourceTextLength>
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <index id="83" parent="32" name="cankao">
+      <ColNames>id</ColNames>
+    </index>
+    <foreign-key id="84" parent="32" name="cankao">
+      <ColNames>id</ColNames>
+      <RefTableName>ceshi7</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <index id="85" parent="33" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="86" parent="33" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="87" parent="35" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Host
+Db
+User
+Table_name
+Column_name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="88" parent="35" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Host
+Db
+User
+Table_name
+Column_name</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="89" parent="36" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="90" parent="36" name="countryname">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <column id="91" parent="36" name="countrycode">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <index id="92" parent="36" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="93" parent="36" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="94" parent="38" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Host
+Db
+User</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="95" parent="38" name="User">
+      <ColNames>User</ColNames>
+    </index>
+    <key id="96" parent="38" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Host
+Db
+User</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="97" parent="41" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="98" parent="41" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>name</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="99" parent="42" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>help_category_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="100" parent="42" name="name">
+      <ColNames>name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="101" parent="42" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>help_category_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="102" parent="42" name="name">
+      <ColNames>name</ColNames>
+    </key>
+    <index id="103" parent="43" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>help_keyword_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="104" parent="43" name="name">
+      <ColNames>name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="105" parent="43" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>help_keyword_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="106" parent="43" name="name">
+      <ColNames>name</ColNames>
+    </key>
+    <index id="107" parent="44" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>help_keyword_id
+help_topic_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="108" parent="44" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>help_keyword_id
+help_topic_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="109" parent="45" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>help_topic_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="110" parent="45" name="name">
+      <ColNames>name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="111" parent="45" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>help_topic_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="112" parent="45" name="name">
+      <ColNames>name</ColNames>
+    </key>
+    <index id="113" parent="46" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Host
+Db</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="114" parent="46" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Host
+Db</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="115" parent="49" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="116" parent="49" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="117" parent="51" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>db
+name
+type</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="118" parent="51" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>db
+name
+type</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="119" parent="52" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Host
+Db
+User
+Routine_name
+Routine_type</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="120" parent="52" name="Grantor">
+      <ColNames>Grantor</ColNames>
+    </index>
+    <key id="121" parent="52" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Host
+Db
+User
+Routine_name
+Routine_type</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="122" parent="54" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>adminId</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="123" parent="54" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>adminId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="124" parent="55" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>courseId</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="125" parent="55" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>courseId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="126" parent="56" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>login_log_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="127" parent="56" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>login_log_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="128" parent="57" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>courseId
+Sno</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="129" parent="57" name="selectId">
+      <ColNames>selectId</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="130" parent="57" name="FK2_t_selection">
+      <ColNames>Sno</ColNames>
+    </index>
+    <key id="131" parent="57" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>courseId
+Sno</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="132" parent="57" name="selectId">
+      <ColNames>selectId</ColNames>
+    </key>
+    <foreign-key id="133" parent="57" name="FK2_t_selection">
+      <ColNames>Sno</ColNames>
+      <RefTableName>t_sinfo</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>Sno</RefColNames>
+    </foreign-key>
+    <foreign-key id="134" parent="57" name="FK_t_selection">
+      <ColNames>courseId</ColNames>
+      <RefTableName>t_course</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>courseId</RefColNames>
+    </foreign-key>
+    <index id="135" parent="58" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Sno</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="136" parent="58" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Sno</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="137" parent="59" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Sno</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="138" parent="59" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Sno</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="139" parent="60" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="140" parent="60" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="141" parent="61" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Host
+Db
+User
+Table_name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="142" parent="61" name="Grantor">
+      <ColNames>Grantor</ColNames>
+    </index>
+    <key id="143" parent="61" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Host
+Db
+User
+Table_name</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="144" parent="64" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Time_zone_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="145" parent="64" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Time_zone_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="146" parent="65" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Transition_time</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="147" parent="65" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Transition_time</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="148" parent="66" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="149" parent="66" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Name</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="150" parent="67" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Time_zone_id
+Transition_time</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="151" parent="67" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Time_zone_id
+Transition_time</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="152" parent="68" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Time_zone_id
+Transition_type_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="153" parent="68" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Time_zone_id
+Transition_type_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="154" parent="69" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Host
+User</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="155" parent="69" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Host
+User</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="156" parent="70" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="157" parent="70" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <index id="158" parent="71" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>userid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="159" parent="71" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>userid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <argument id="160" parent="79" name="id">
+      <Position>1</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+    </argument>
+  </database-model>
+</dataSource>
