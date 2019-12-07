@@ -278,9 +278,8 @@ public class ShowStuInfoFrame extends JFrame {
                     @Override
                     public void mouseClicked(MouseEvent e) {
 
-//////////////////////////////////////////////////////////////
-//////////////显示学号对应的学生信息///////////////////////////////
-/////////////////////////////////////////////////////////////
+                       //显示学号对应的学生信息
+
                         final JFrame modifyJF1 = new JFrame();
                         modifyJF1.setSize(300, 400);
                         modifyJF1.setBackground(Color.gray);
@@ -326,9 +325,7 @@ public class ShowStuInfoFrame extends JFrame {
                         classJTF.setText(stuRet.getStuClass());
                      //   professionalJTF.setText(stuRet.getStuProfessional());
 
-//////////////////////////////////////////////////////////////
-//////////////提交修改后的学生信息///////////////////////////////
-/////////////////////////////////////////////////////////////
+                         //提交修改后的学生信息
                         JButton submitJB = new JButton("提交修改");
                         modifyJF1.add(submitJB);
                         submitJB.addMouseListener(new MouseAdapter() {
