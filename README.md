@@ -1,6 +1,6 @@
 # JAVA-
 JAVA最后一次综合性实验，编码采用UTF-8形式，README.md文件为实现功能的核心代码，位于目录：CourseSys\src\com\baidu\studentmanage\ShowStuInfoFrame.java
-
+================
 
 代码如下：
 package com.baidu.studentmanage;
@@ -368,3 +368,4 @@ public class ShowStuInfoFrame extends JFrame {
         login window = new login();
     }
 }
+_______________________________
