@@ -366,3 +366,33 @@ public class ShowStuInfoFrame extends JFrame {
     }
 }
 _______________________________
+
+
+流程图如下：
+====================
+<img src=https://github.com/yida-zhao/JAVA-/blob/master/%E6%B5%81%E7%A8%8B%E5%9B%BE.JPG width="400">
+
+
+
+
+运行结果图：
+======================
+<img src=https://github.com/yida-zhao/JAVA-/blob/master/%E6%B3%A8%E5%86%8C1.png width="300">
+<img src=https://github.com/yida-zhao/JAVA-/blob/master/%E6%B3%A8%E5%86%8C2.png width="300">
+<img src=https://github.com/yida-zhao/JAVA-/blob/master/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A21.png width="300">
+<img src=https://github.com/yida-zhao/JAVA-/blob/master/%E5%AD%A6%E7%94%9F%E9%80%89%E8%AF%BE1.png width="300">
+<img src=https://github.com/yida-zhao/JAVA-/blob/master/%E5%B0%86%E4%BF%A1%E6%81%AF%E6%98%BE%E7%A4%BA%E5%9C%A8GUI%E7%AA%97%E5%8F%A3%E4%B8%8A.png width="300">
+
+<img src=https://github.com/yida-zhao/JAVA-/blob/master/%E6%89%93%E5%8D%B0%E6%88%90%E5%8A%9F.png width="300">
+<img src=https://github.com/yida-zhao/JAVA-/blob/master/%E4%BF%AE%E6%94%B9%E5%AD%A6%E7%94%9F%E4%BF%A1%E6%81%AF2.png width="300">
+<img src=https://github.com/yida-zhao/JAVA-/blob/master/%E4%BF%AE%E6%94%B93.png width="300">
+<img src=https://github.com/yida-zhao/JAVA-/blob/master/%E4%BF%AE%E6%94%B9%E6%88%90%E5%8A%9F.png width="300">
+
+
+
+
+
+实验心得：
+===============
+本次综合实验难度很大，所用知识贯穿整个学习所学内容-------从简单的类的建立、变量声明到复杂的事件监听和处理。耗时也很长，错误也很多，有时候不起眼的错误会使人崩溃，下层基础决定上层建筑，应该加强对JAVA基础的重视。本次实验，加强我对”面向对象编程“理念的理解，使我更加全面的掌握其内在意义。另外，关于GUI的应用，我也变得更加熟练，能很快的找到自己所想要的布局，灵活运用按钮、复选框、下拉列表等在界面中的摆放位置。还有，我加强了对JAVA这门语言的核心特性的理解。通过本学期的学习以及这次综合性实验，我认为，我对JAVA有了一定的掌握，感谢老师的耐心教导，感谢老师辛苦符出
+======================================
